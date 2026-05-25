@@ -4,7 +4,9 @@ function AppContent() {
 
   return (
     <>
-      <Outlet />
+      <div className= "container">
+        <Outlet />
+      </div>
     </>
   )
 }
